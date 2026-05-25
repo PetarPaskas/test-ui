@@ -1,4 +1,4 @@
-const API_URL = 'http://recap-backend-hqdahxf3hwg8fwbc.westeurope-01.azurewebsites.net'
+const API_URL = 'https://recap-backend-hqdahxf3hwg8fwbc.westeurope-01.azurewebsites.net'
 
 /**
  * Builds the polygon request body from an array of {lat, lng} vertices.
