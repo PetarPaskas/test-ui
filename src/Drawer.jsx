@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react'
-import LandTab from './components/LandTab.jsx'
-import ThermalTab from './components/ThermalTab.jsx'
-import TerrainTab from './components/TerrainTab.jsx'
+import LandTab from './components/Landtab.jsx'
+import ThermalTab from './components/Thermaltab.jsx'
+import TerrainTab from './components/Terraintab.jsx'
 import { fetchThermalAnalysis, fetchTerrainAnalysis } from './services/Api.js'
 
 const TABS = [

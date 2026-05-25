@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import DonutChart from './DonutChart.jsx'
+import DonutChart from './Donutchart.jsx'
 
 function formatArea(sqm) {
   if (sqm >= 10000) return `${(sqm / 10000).toFixed(2)} ha`
