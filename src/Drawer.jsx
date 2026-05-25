@@ -2,7 +2,7 @@ import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react'
 import LandTab from './components/LandTab.jsx'
 import ThermalTab from './components/ThermalTab.jsx'
 import TerrainTab from './components/TerrainTab.jsx'
-import { fetchThermalAnalysis, fetchTerrainAnalysis } from './services/api.js'
+import { fetchThermalAnalysis, fetchTerrainAnalysis } from './services/Api.js'
 
 const TABS = [
   { id: 'land', label: 'Land Cover', icon: 'M3 3h18v18H3zM3 9h18M9 3v18' },

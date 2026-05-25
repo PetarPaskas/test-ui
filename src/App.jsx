@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import MapView from './MapView.jsx'
 import Drawer from './Drawer.jsx'
-import { fetchLandAnalysis } from './services/api.js'
+import { fetchLandAnalysis } from './services/Api.js'
 
 export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
